@@ -108,6 +108,6 @@ public class EntityOutliner implements ClientModInitializer {
     }
 
     public static void logException(Exception ex, String message) {
-        System.err.printf("[EntityOutliner] %s (%s: %s)", message, ex.getClass().getSimpleName(), ex.getLocalizedMessage());
+        System.err.printf("[EntityOutliner] %s (%s: %s)\n", message, ex.getClass().getSimpleName(), ex.getLocalizedMessage());
     }
 }
